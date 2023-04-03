@@ -1,0 +1,101 @@
+body{
+    margin : 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #40514E;
+}
+h1{
+    font-family: 'IBM Plex Mono', monospace; 
+    margin-top: 0;
+    color: #3C6255;
+}
+h2{
+    color: #3C6255;
+    font-weight: 1000;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+h3{
+    color: #3C6255;
+    font-size: 1.4rem;
+}
+p{
+    line-height: 1.4;
+}
+.skill-row{
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+}
+#webD{
+    color: #3C6255;
+}
+.top-Container{
+    background-color: #EAE7B1;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 80px 0;
+}
+.bottom-container{
+    background-color: #A6BB8D;
+    padding: 50px 0 10px 0;
+}
+hr{
+    border: dotted #bed7d7 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 80px auto;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+.btn {
+    background: #A6BB8D;
+    background-image: -webkit-linear-gradient(top, #A6BB8D, #61876E);
+    background-image: -moz-linear-gradient(top, #A6BB8D, #61876E);
+    background-image: -ms-linear-gradient(top, #A6BB8D, #61876E);
+    background-image: -o-linear-gradient(top, #A6BB8D, #61876E);
+    background-image: linear-gradient(to bottom, #A6BB8D, #61876E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'IBM Plex Mono', monospace; 
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #2b895c;
+    background-image: -webkit-linear-gradient(top, #4de39b, #24a856);
+    background-image: -moz-linear-gradient(top, #4de39b, #24a856);
+    background-image: -ms-linear-gradient(top, #4de39b, #388957);
+    background-image: -o-linear-gradient(top, #4de39b, #24a856);
+    background-image: linear-gradient(to bottom, #4de39b, #24a856);
+    text-decoration: none;
+}
+a{
+    color: rgb(18, 83, 44);
+    font-family: 'IBM Plex Mono', monospace; 
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
